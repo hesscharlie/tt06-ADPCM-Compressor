@@ -1,14 +1,6 @@
-/*
- * tt_um_factory_test.v
- *
- * Test user module
- *
- * Author: Sylvain Munaut <tnt@246tNt.com>
- */
-
 `default_nettype none
 
-module tt_um_factory_test (
+module ADPCM_COMPRESSOR (
 	input  wire [7:0] ui_in,	// Dedicated inputs
 	output wire [7:0] uo_out,	// Dedicated outputs
 	input  wire [7:0] uio_in,	// IOs: Input path
@@ -34,4 +26,4 @@ module tt_um_factory_test (
 	assign uo_out[7:5] = 3'd0;
 
 
-endmodule // tt_um_factory_test
+endmodule // ADPCM_COMPRESSOR
