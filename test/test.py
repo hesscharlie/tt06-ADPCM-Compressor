@@ -3,7 +3,7 @@ from cocotb.clock import Clock
 from cocotb.triggers import RisingEdge, ClockCycles, Timer
 
 @cocotb.test()
-async def tt_um_factory_test(dut):
+async def tt_um_ADPCM_COMPRESSOR(dut):
     # Create a fast clock
     fast_clock = Clock(dut.clk, 10, units="us")  # Fast clock
     cocotb.start_soon(fast_clock.start())
