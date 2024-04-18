@@ -26,7 +26,7 @@ Outputs: encPcm (uo_out[4:1]): the final 4 bit ADPCM encoded output outValid (uo
   The IMA ADPCM encoder which encodes the 16 bit output of the CIC filter to 4 bit adpcm samples
    
    
-4. tt_um_factory_test.v
+4. tt_um_ADPCM_COMPRESSOR.v
    A Top level wrapper to match the tinytapeout signal names
 
 
