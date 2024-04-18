@@ -5,7 +5,7 @@
 SIM ?= icarus
 TOPLEVEL_LANG ?= verilog
 SRC_DIR = $(PWD)/../src
-PROJECT_SOURCES = tt_um_factory_test.v
+PROJECT_SOURCES = tt_um_ADPCM_COMPRESSOR.v
 SRC1 = ima_adpcm_enc.v
 SRC2 = CICDecimatorVerilogBlock.v
 SRC3 = CIC_ADPCM_Wrapper.v
